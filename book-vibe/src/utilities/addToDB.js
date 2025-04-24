@@ -39,4 +39,4 @@ const setDataToWishBD = (id) => {
 }
 
 
-export { setDataToBD, setDataToWishBD };
+export { setDataToBD, setDataToWishBD, getBookFromReadDB,getBookFromWishDB };

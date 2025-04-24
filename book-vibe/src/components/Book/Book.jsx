@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const Book = ({ book }) => {
 
-    const { bookName, bookId, author, image, rating, category, tags, publisher
+    const { bookName, bookId, author, image,totalPages, rating, category, tags, publisher
     } = book;
 
     return (
@@ -21,6 +21,7 @@ const Book = ({ book }) => {
                         <h2 className="card-title">{bookName}</h2>
                         <p>{author}</p>
                         <p>{publisher}</p>
+                        <p>{totalPages}</p>
                         <div className='flex justify-between'>
                             <p>{category}</p>
                             <p className='flex items-center gap-3'>
